@@ -47,7 +47,8 @@ class Blockchain:
         :param previous_hash: Hash of previous Block
         :return: New Block
         """
-        # voting is the value that if the patients willing to share the code
+        # voting_doc is whether the doctor willing to share the data
+        # voting_pat is the value that if the patients willing to share the data. 
         if voting_doc or voting_pat ==0:
             return Null
         else:
